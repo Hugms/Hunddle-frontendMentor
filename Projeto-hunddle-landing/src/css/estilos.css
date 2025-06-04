@@ -1,0 +1,93 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) center center no-repeat;
+    background-color: hsl(257, 40%, 49%);
+    grid-template-areas: "header header header header" "main main main main" "footer footer footer";
+}
+
+.logo {
+    grid-area: header;
+    padding: 40px;
+}
+
+.info {
+    grid-area: main;
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem;
+}
+
+.imagem {
+    max-width: 100%;
+    width: 50%;
+}
+
+.textos {
+    font-family: 'open',sans-serif;
+    display: flex;
+    flex-direction: column;
+    max-width: 50rem;
+    color: white;
+    text-align: left;
+    gap: 2rem;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.about {
+    font-size: 1.6rem;
+}
+
+.buttom {
+    font-family: 'open',sans-serif;
+    font-weight: 300;
+    display: grid;
+    background-color: #fff;
+    width: 20rem;
+    height: 4rem;
+    border-radius: 50px;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    color: hsl(257, 40%, 49%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.buttom:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.links {
+    display: flex;
+    justify-content: end;
+    
+}
+
+.links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    margin: 0 8px;
+    border: 1px solid white;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease;
+}
+
+.links a:hover {
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}

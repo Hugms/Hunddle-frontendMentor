@@ -1,0 +1,37 @@
+@media (max-width: 425px) {
+    body {
+        background: url(../images/bg-mobile.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        background-color: hsl(257, 40%, 49%);
+        height: 100%;
+
+    }
+
+    .title{
+        font-size: 3rem;
+    }
+    
+    .about{
+        font-size: 2rem;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    .textos {
+        text-align: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .links {
+        display: flex;
+        justify-content: center;
+        padding-top: 40px;
+    }
+
+}
