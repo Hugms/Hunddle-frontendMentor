@@ -28,6 +28,7 @@ body {
 }
 
 .textos {
+    font-family: 'open',sans-serif;
     display: flex;
     flex-direction: column;
     max-width: 50rem;
@@ -45,6 +46,8 @@ body {
 }
 
 .buttom {
+    font-family: 'open',sans-serif;
+    font-weight: 300;
     display: grid;
     background-color: #fff;
     width: 20rem;
@@ -85,6 +88,6 @@ body {
 }
 
 .links a:hover {
-    background-color: white;
-    color: hsl(257, 40%, 49%);
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
 }
